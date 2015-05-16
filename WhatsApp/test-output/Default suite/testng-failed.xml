@@ -5,7 +5,7 @@
     <classes>
       <class name="WhatsApp">
         <methods>
-          <include name="open"/>
+          <include name="AddingManualExpense"/>
         </methods>
       </class> <!-- WhatsApp -->
     </classes>
