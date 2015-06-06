@@ -27,7 +27,7 @@ public class WhatsApp
 	{
 		
 		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setCapability("deviceName", "ASUS_T00J" );
+		cap.setCapability("deviceName", "ASUS_T00ooooo" );
 		cap.setCapability("platformName", "Android");
 		cap.setCapability("platformVersion","4.4.2");
 		File file = new File("F:\\Git Repo\\Appium\\WhatsApp\\Apk\\com.daamitt.walnut.app-64.apk");
@@ -49,14 +49,15 @@ public class WhatsApp
 		String Amt = (String) spent_amt.subSequence(1,7);
 		String[] finalAmt = Amt.split(",");
 		Amt = finalAmt[0]+finalAmt[1];
-		Assert.assertEquals("12345", Amt);
+//		Assert.assertEquals("12345", Amt);
 		String Cat = driver.findElement(By.id("com.daamitt.walnut.app:id/ASTVCatName")).getText();
 		Assert.assertEquals("Food & Drinks", Cat);
 		spent_amt = driver.findElement(By.id("com.daamitt.walnut.app:id/ASTVAmount")).getText();
 		Amt = (String) spent_amt.subSequence(1,7);
 		finalAmt = Amt.split(",");
+		System.out.println("mglkgfdlkmlkg");
 		Amt = finalAmt[0]+finalAmt[1];
-		Assert.assertEquals("12345", Amt);
+		Assert.assertEquals("12345w2ww2w2w", Amt);
 		
 		
 	}
