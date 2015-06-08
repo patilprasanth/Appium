@@ -58,6 +58,12 @@ public class WhatsApp
 		System.out.println("mglkgfdlkmlkg");
 		Amt = finalAmt[0]+finalAmt[1];
 		Assert.assertEquals("12345w2ww2w2w", Amt);
+		Assert.assertEquals("12345w2ww2w2w", Amt);
+		Assert.assertEquals("12345w2ww2w2w", Amt);
+		Assert.assertEquals("12345w2ww2w2w", Amt);
+		Assert.assertEquals("12345w2ww2w2w", Amt);
+		Assert.assertEquals("12345w2ww2w2w", Amt);
+		Assert.assertEquals("12345w2ww2w2w", Amt);
 		
 		
 	}
